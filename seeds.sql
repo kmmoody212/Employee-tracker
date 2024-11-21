@@ -4,6 +4,7 @@ VALUES ('Sales');
 INSERT INTO roles (title, salary, department_id)
 VALUES ('Sales Lead', 100000, 1)
 
+-- EXAMPLE:
 -- INSERT INTO department(name)
 -- VALUES ('Parks and Recreation'),
 --        ('Police'),
