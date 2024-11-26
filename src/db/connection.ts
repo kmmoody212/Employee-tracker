@@ -1,3 +1,4 @@
+// Used class activity 23 boilerplate
 import dotenv from "dotenv";
 dotenv.config();
 // Import and require Pool (node-postgres)
@@ -9,6 +10,7 @@ const pool = new Pool({
   password: process.env.DB_PASSWORD,
   host: "localhost",
   database: process.env.DB_NAME,
+  port: 5432,
 });
 
 //
