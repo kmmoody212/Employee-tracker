@@ -4,7 +4,8 @@ import inquirer from "inquirer";
 import { pool, connectToDb } from "./connection.js";
 await connectToDb();
 
-// put ascii art up here to be read first
+// Giving a title to the top of the actions list when first loaded
+console.log(`---------- Welcome to the Employee Tracker ----------`);
 
 // ////////////////// EMPLOYEE FUNCTIONS ///////////////// //
 // function to view employees
