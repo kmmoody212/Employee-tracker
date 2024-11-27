@@ -19,7 +19,6 @@ CREATE TABLE roles (
 );
 
 CREATE TABLE employees (
-  -- Creates a numeric column called "id" --
   id SERIAL PRIMARY KEY,
   first_name VARCHAR(30) NOT NULL,
   last_name VARCHAR(30) NOT NULL,
